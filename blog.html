@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>JSAnalytics Blog</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: "Segoe UI", sans-serif;
+      margin: 0;
+      background-color: #f4f7fa;
+      color: #2c3e50;
+    }
+
+    header {
+      background: linear-gradient(to right, #0077ff, #00c6ff);
+      padding: 2rem 1rem;
+      text-align: center;
+      color: white;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    .blog-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+      max-width: 1200px;
+      margin: 3rem auto;
+      padding: 0 1rem;
+    }
+
+    .card {
+      background: white;
+      border-radius: 16px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      padding: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+    }
+
+    .card h2 {
+      color: #0077ff;
+      margin-top: 0;
+    }
+
+    .card p {
+      flex: 1;
+      font-size: 0.95rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .card a {
+      text-decoration: none;
+      color: #0077ff;
+      font-weight: bold;
+    }
+
+    .card a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      background: #e0e0e0;
+      padding: 1rem;
+      text-align: center;
+      font-size: 0.9rem;
+      margin-top: 4rem;
+    }
+
+    .section {
+      padding: 2rem 1rem;
+      background-color: #fff;
+      margin: 2rem 0;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .section h2 {
+      text-align: center;
+      color: #0077ff;
+      margin-bottom: 1.5rem;
+    }
+
+    .section ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .section li {
+      margin: 1rem 0;
+    }
+
+    .section a {
+      text-decoration: none;
+      color: #0077ff;
+      font-weight: 500;
+    }
+
+    .section a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Explore Our Blog</h1>
+    <p style="font-size: 1.1rem; margin-top: 0.5rem;">Insights, tips, and tools from the JSAnalytics team</p>
+  </header>
+
+  <main class="blog-grid">
+    <div class="card">
+      <h2>Understanding Web Analytics</h2>
+      <p>Discover why analytics isn’t just about traffic — it’s about understanding your users and optimizing smarter in 2025.</p>
+      <a href="blog1.html">Read More →</a>
+    </div>
+
+    <div class="card">
+      <h2>Build Your Own JS Dashboard</h2>
+      <p>Want total control of your data? Learn how to build your own analytics dashboard using JavaScript from scratch.</p>
+      <a href="blog2.html">Read More →</a>
+    </div>
+
+    <div class="card">
+      <h2>Top 5 JS Visualization Libraries</h2>
+      <p>From Chart.js to D3.js — see which libraries are making data look stunning and interactive in 2025.</p>
+      <a href="blog3.html">Read More →</a>
+    </div>
+  </main>
+
+  <section class="section">
+    <div class="container">
+      <h2>JSAnalytics Blog</h2>
+      <ul>
+        <li><a href="blog1.html">Blog 1: Getting Started with Data Analytics</a></li>
+        <li><a href="blog2.html">Blog 2: Top Tools for Data Analytics in 2025</a></li>
+        <li><a href="blog3.html">Blog 3: Career Paths in Data Analytics</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 JSAnalytics. All rights reserved.
+  </footer>
+</body>
+</html>
